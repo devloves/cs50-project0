@@ -15,7 +15,7 @@ body {
 }
 .topnav a {
   float: right;
-  margin-right: 50px;
+  padding-right: 50px;
   font-family: 'Arvo', serif;
   color: #fff;
   text-align: center;
