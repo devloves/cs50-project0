@@ -8,12 +8,14 @@ body {
 .topnav {
   background-color: #fff;
   overflow: hidden;
-
+  background: #FEAC5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: 'Arvo', serif;
 }
 .topnav a {
   float: right;
-  color: black;
+  color: #fff;
   text-align: center;
   padding: 14px 16px;
   -webkit-app-region: no-drag;
