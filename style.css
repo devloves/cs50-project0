@@ -30,7 +30,8 @@ a:hover {
 .head {
 	display: flex;
 	height: 700px;
-	background: url(bg top.jpg)
+	background: url(bg top.jpg);
+	text-align:center;
 	justify-content: center;
 	font-family: 'Arvo', serif;
 }
