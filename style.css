@@ -10,7 +10,7 @@ body {
   overflow: hidden;
   font-family: 'Arvo', serif;
 }
-.topnav span {
+.topnav a {
   float: right;
   color: black;
   text-align: center;
