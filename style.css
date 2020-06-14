@@ -29,6 +29,7 @@ a:hover {
 }
 .head {
 	display: flex;
+	justify-content: center;
 	font-family: 'Arvo', serif;
 }
 .head span {
