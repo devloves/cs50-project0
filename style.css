@@ -8,12 +8,27 @@ body {
 .topnav {
   background-color: #fff;
   overflow: hidden;
-  background: #FEAC5E;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  font-family: 'Arvo', serif;
+  padding-left: 100px;
+  padding-right: 100px;
+  background: #00c6ff;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ font-family: 'Arvo', serif;
+ font-size: 24px;
+ @media (max-width: 600px) {
+    width: 100%;
+    font-size: 16px;
+  }
 }
 .topnav a {
+  float: left;
+  font-family: 'Arvo', serif;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav span {
   float: right;
   padding-right: 50px;
   font-family: 'Arvo', serif;
@@ -29,15 +44,15 @@ a:hover {
 }
 .head {
 	display: flex;
-	height: 700px;
-	color: #fff;
-	background: url(https://github.com/devloves/cs50-project0/blob/master/bg%20top.jpg?raw=true) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+	height: 400px;
+	flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+	color: black;
+	background: url(https://images.unsplash.com/photo-1561494653-744c43aed0c1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1329&q=80) center fixed; 
+    background-repeat: no-repeat;
     background-size: cover;
 	text-align:left;
-	justify-content: center;
 	font-family: 'Arvo', serif;
 }
 .head span {
@@ -45,8 +60,24 @@ a:hover {
 	padding-bottom: 6px;
 	padding-left: 6px;
 	padding-right: 6px;
-   background: #00c6ff;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   color: white;
+   background: #fff; 
+   color: black;
+}
+#topbtn {
+  margin-left: 100px;
+  background: none;
+  text-decoration: bold;
+  font-family:'Arvo', serif;
+  font-size: 1rem;
+  font-size: 24px;
+  width: 300px;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  color: #fff;
+  border-image-source:linear-gradient(to right, #0072ff, #00c6ff); 
+  padding: 1rem 2rem;
+}
+#topbtn:hover {
+   background: linear-gradient(to right, #0072ff, #00c6ff);
 }
