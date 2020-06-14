@@ -30,7 +30,7 @@ a:hover {
 .head {
 	display: flex;
 	height: 700px;
-	background: url(bg top.jpg);
+	background: url(https://github.com/devloves/cs50-project0/blob/master/bg%20top.jpg?raw=true);
 	text-align:center;
 	justify-content: center;
 	font-family: 'Arvo', serif;
