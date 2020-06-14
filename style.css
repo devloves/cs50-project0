@@ -29,6 +29,8 @@ a:hover {
 }
 .head {
 	display: flex;
+	height: 700px;
+	background: url(bg top.jpg)
 	justify-content: center;
 	font-family: 'Arvo', serif;
 }
