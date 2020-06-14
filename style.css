@@ -34,5 +34,5 @@ a:hover {
 }
 .head span {
    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
-  -webkit-background-clip: text;
+   color: white;
 }
