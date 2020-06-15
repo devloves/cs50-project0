@@ -1,0 +1,82 @@
+body {
+  margin: 0px;
+  background: #2b2e4a;
+}
+/* Include the padding and border in an element's total width and height */
+* {
+  box-sizing: border-box;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #393e46; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #eeeeee; 
+}
+.nav {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  background:#222831;
+ font-size: 24px;
+ @media (max-width: 600px) {
+    width: 100%;
+    font-size: 21px;
+  }
+}
+.nav a {
+  float: left;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav span {
+  float: right;
+  padding-right: 50px;
+  align-items: center;
+  font-family: 'Bebas Neue', cursive;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+a:hover {
+  background: #fff;
+  color: black;
+}
+.content {
+	display: flex;
+	align-items: center;
+	padding-top: 100px;
+}
+.content span {
+	font-family: 'Bebas Neue', cursive;
+	padding-left: 100px;
+	font-size: 32px;
+	color: #eeeeee;
+	text-align: left;
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-decoration-color: #e84545;
+	letter-spacing: 5px;
+}
+.content h1 {
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  padding-left: 100px;
+  font-size: 24px;
+  text-decoration:bold;
+  text-align: left;
+}
